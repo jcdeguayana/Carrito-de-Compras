@@ -21,13 +21,14 @@ namespace PresentacionAdmin.Controllers
             return View();
         }
 
+        [HttpGet]
         public JsonResult Listar_Usuarios()
         {
             List<Usuario> Lista = new List<Usuario>();
 
             Lista = new CN_User().Listar();
 
-            return Json(Lista,JsonRequestBehavior.AllowGet);
+            return Json(new { data = Lista },JsonRequestBehavior.AllowGet);
         }
     }
 }
