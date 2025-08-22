@@ -17,7 +17,7 @@
     <div class="card-body">
         <div class="row">
             <div class="col-12">
-                <button type="button" class="btn btn-success">Crear Nuevo</button>
+                <button type="button" class="btn btn-success" onclick="AbrirModal()">Crear Nuevo</button>
             </div>
         </div>
 
@@ -34,6 +34,54 @@
             <tbody>
             </tbody>
         </table>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="FormModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-dark text-white">
+                <h5 class="modal-title" id="exampleModalLabel">Usuario</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body g-2">
+
+                <div class="row">
+
+                    <div class="col-sm-6">
+                        <label for="txtNombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="txtNombre" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="txtApellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="txtApellido" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="txtCorreo" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="txtCorreo" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="cboActivo" class="form-label">Activo</label>
+                        <select id="cboActivo" class="form-select" aria-label="Default select example">
+                            <option value="1">Sí</option>
+                            <option value="0">No</option>
+                        </select>
+                    </div>
+
+
+                </div>
+                
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Guardar</button>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -63,7 +111,7 @@
             },
             {
                 "defaultContent":
-                    '<button type="button" class="btn btn-warning btn-sm">' +
+                    '<button type="button" class="btn btn-warning btn-sm btn-editar">' +
                     '<i class="fas fa-pen"></i>' +
                     '</button>' +
                     '<button type="button" class="btn btn-danger btn-sm ms-2">' +
@@ -75,7 +123,21 @@
 
             }
         ]
+
+        //language: {
+        //    url: '//cdn.datatables.net/plug-ins/2.3.3/i18n/es-ES.json',
+        //}
     });
+
+        function AbrirModal() {
+            $("#FormModal").modal("show");
+        }
+
+        $("#tabla tbody").on("click", ".btn-editar", function () {
+            var filaSeleccionada = $(this).closest("tr");
+            console.log(DataTable.row(filaSeleccionada).data());
+        });
+
 
     </script>
 
