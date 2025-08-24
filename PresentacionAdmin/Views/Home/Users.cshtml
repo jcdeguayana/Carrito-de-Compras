@@ -17,7 +17,7 @@
     <div class="card-body">
         <div class="row">
             <div class="col-12">
-                <button type="button" class="btn btn-success" onclick="AbrirModal()">Crear Nuevo</button>
+                <button type="button" class="btn btn-success" onclick="AbrirModal(null)">Crear Nuevo</button>
             </div>
         </div>
 
@@ -38,7 +38,7 @@
 </div>
 
 <!-- Modal -->
-<div class="modal fade" id="FormModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="FormModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header bg-dark text-white">
@@ -46,6 +46,8 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body g-2">
+
+                <input id="txtId" type="hidden" value="0"/>
 
                 <div class="row">
 
@@ -79,7 +81,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                <button type="button" class="btn btn-primary">Guardar</button>
+                <button type="button" class="btn btn-primary" onclick="Guardar()">Guardar</button>
             </div>
         </div>
     </div>
@@ -89,7 +91,8 @@
 
     <script>
 
-    var DataTable;
+        var DataTable;
+        var filaSeleccionada;
 
     DataTable = $("#tabla").DataTable({
         responsive: true,
@@ -129,14 +132,55 @@
         //}
     });
 
-        function AbrirModal() {
+        function AbrirModal(json) {
+
+            
+
+            if (json != null) {
+
+                $("#txtId").val(json.IdUsuario)
+                $("#txtNombre").val(json.Nombres)
+                $("#txtApellido").val(json.Apellidos)
+                $("#txtCorreo").val(json.Correo)
+                $("#cboActivo").val(json.Clave == true ? 0 : 1)
+
+            }
+            else {
+                $("#txtId").val(0)
+                $("#txtNombre").val("")
+                $("#txtApellido").val("")
+                $("#txtCorreo").val("")
+                $("#cboActivo").val(1)
+            }
             $("#FormModal").modal("show");
         }
 
         $("#tabla tbody").on("click", ".btn-editar", function () {
-            var filaSeleccionada = $(this).closest("tr");
+            filaSeleccionada = $(this).closest("tr");
             console.log(DataTable.row(filaSeleccionada).data());
+            var data = DataTable.row(filaSeleccionada).data();
+            AbrirModal(data);
         });
+
+        function Guardar() {
+
+            var Usuario = {
+                IdUsuario: $("#txtId").val(),
+                Activo: ($("#cboActivo").val() == 1 ? true : false),
+                Apellidos: $("#txtApellido").val(),
+                Correo: $("#txtCorreo").val(),
+                Nombres: $("#txtNombre").val()
+            };
+
+            if (Usuario.IdUsuario == 0) {
+                DataTable.row.add(Usuario).draw(false);
+            } else {
+                DataTable.row(filaSeleccionada).data(Usuario).draw(false);
+            }
+
+            $("#FormModal").modal("hide");
+
+        };
 
 
     </script>

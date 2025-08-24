@@ -9,3 +9,14 @@ C:\Users\Usuario\Desktop\CursoMVC\CapaBusiness\obj\Debug\CapaBusiness.csproj.Cor
 C:\Users\Usuario\Desktop\CursoMVC\CapaBusiness\obj\Debug\CapaBusi.052BCAA0.Up2Date
 C:\Users\Usuario\Desktop\CursoMVC\CapaBusiness\obj\Debug\CapaBusiness.dll
 C:\Users\Usuario\Desktop\CursoMVC\CapaBusiness\obj\Debug\CapaBusiness.pdb
+C:\Users\Usuario\Desktop\Carrito-de-Compras\CapaBusiness\bin\Debug\CapaBusiness.dll
+C:\Users\Usuario\Desktop\Carrito-de-Compras\CapaBusiness\bin\Debug\CapaBusiness.pdb
+C:\Users\Usuario\Desktop\Carrito-de-Compras\CapaBusiness\bin\Debug\CapaData.dll
+C:\Users\Usuario\Desktop\Carrito-de-Compras\CapaBusiness\bin\Debug\CapaEntity.dll
+C:\Users\Usuario\Desktop\Carrito-de-Compras\CapaBusiness\bin\Debug\CapaData.pdb
+C:\Users\Usuario\Desktop\Carrito-de-Compras\CapaBusiness\bin\Debug\CapaEntity.pdb
+C:\Users\Usuario\Desktop\Carrito-de-Compras\CapaBusiness\obj\Debug\CapaBusiness.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Carrito-de-Compras\CapaBusiness\obj\Debug\CapaBusiness.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Carrito-de-Compras\CapaBusiness\obj\Debug\CapaBusi.052BCAA0.Up2Date
+C:\Users\Usuario\Desktop\Carrito-de-Compras\CapaBusiness\obj\Debug\CapaBusiness.dll
+C:\Users\Usuario\Desktop\Carrito-de-Compras\CapaBusiness\obj\Debug\CapaBusiness.pdb
