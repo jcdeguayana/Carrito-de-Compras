@@ -45,25 +45,25 @@
                 <h5 class="modal-title" id="exampleModalLabel">Usuario</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body g-2">
+            <div class="modal-body">
 
                 <input id="txtId" type="hidden" value="0"/>
 
-                <div class="row">
+                <div class="row g-2">
 
                     <div class="col-sm-6">
                         <label for="txtNombre" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="txtNombre" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" id="txtNombre" aria-describedby="emailHelp" autocomplete="off">
                     </div>
 
                     <div class="col-sm-6">
                         <label for="txtApellido" class="form-label">Apellido</label>
-                        <input type="text" class="form-control" id="txtApellido" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" id="txtApellido" aria-describedby="emailHelp" autocomplete="off">
                     </div>
 
                     <div class="col-sm-6">
                         <label for="txtCorreo" class="form-label">Correo</label>
-                        <input type="email" class="form-control" id="txtCorreo" aria-describedby="emailHelp">
+                        <input type="email" class="form-control" id="txtCorreo" aria-describedby="emailHelp" autocomplete="off">
                     </div>
 
                     <div class="col-sm-6">
@@ -74,6 +74,18 @@
                         </select>
                     </div>
 
+
+                </div>
+
+                <div class="row mt-2">
+
+                    <div class="col-12">
+
+                        <div id ="ErrorMessage" class="alert alert-danger" role="alert">
+                            A simple danger alert—check it out!
+                        </div>
+
+                    </div>
 
                 </div>
                 
@@ -134,7 +146,7 @@
 
         function AbrirModal(json) {
 
-            
+
 
             if (json != null) {
 
@@ -142,7 +154,8 @@
                 $("#txtNombre").val(json.Nombres)
                 $("#txtApellido").val(json.Apellidos)
                 $("#txtCorreo").val(json.Correo)
-                $("#cboActivo").val(json.Clave == true ? 0 : 1)
+                $("#cboActivo").val(json.Activo == true ? 1 : 0)
+                $("#ErrorMessage").hide();
 
             }
             else {
@@ -151,6 +164,7 @@
                 $("#txtApellido").val("")
                 $("#txtCorreo").val("")
                 $("#cboActivo").val(1)
+                $("#ErrorMessage").hide();
             }
             $("#FormModal").modal("show");
         }
@@ -172,13 +186,61 @@
                 Nombres: $("#txtNombre").val()
             };
 
-            if (Usuario.IdUsuario == 0) {
-                DataTable.row.add(Usuario).draw(false);
-            } else {
-                DataTable.row(filaSeleccionada).data(Usuario).draw(false);
-            }
+                jQuery.ajax({
+                url: '@Url.Action("GuardarUsuario", "Home")',
+                type: "POST",
+                data: JSON.stringify({ objeto: Usuario }),
+                dataType: "json",
+                contentType: "application/json; charset=utf-8",
+                    success: function (data) {
 
-            $("#FormModal").modal("hide");
+                        debugger;
+
+                        // USUARIO NUEVO
+                        if (Usuario.IdUsuario == 0) {
+
+                            if (data.resultado != 0) {
+                                Usuario.IdUsuario = data.resultado;
+                                DataTable.row.add(Usuario).draw(false);
+                                $("#FormModal").modal("hide");
+                            } else {
+                                $("#ErrorMessage").text(data.mensaje);
+                                $("#ErrorMessage").show();
+                            }
+
+                        }
+                            // USUARIO EDITAR
+                        else {
+                            if (data.resultado) {
+                                DataTable.row(filaSeleccionada).data(Usuario).draw(false);
+                                filaSeleccionada = null;
+                                $("#FormModal").modal("hide");
+                            }
+                            else {
+                                $("#ErrorMessage").text(data.mensaje);
+                                $("#ErrorMessage").show();
+                            }
+                        }
+
+                    console.log(data);
+                },
+                error: function (error) {
+                    console.log(error);
+                },
+                beforeSend: function () {
+                    // Opcional: acciones antes de enviar la petición
+                }
+            });
+
+
+
+            //if (Usuario.IdUsuario == 0) {
+            //    DataTable.row.add(Usuario).draw(false);
+            //} else {
+            //    DataTable.row(filaSeleccionada).data(Usuario).draw(false);
+            //}
+
+            //$("#FormModal").modal("hide");
 
         };
 
