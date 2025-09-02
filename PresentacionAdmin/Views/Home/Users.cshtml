@@ -194,7 +194,9 @@
                 contentType: "application/json; charset=utf-8",
                     success: function (data) {
 
-                        debugger;
+                
+
+                        $(".modal-body").LoadingOverlay("hide");
 
                         // USUARIO NUEVO
                         if (Usuario.IdUsuario == 0) {
@@ -224,11 +226,19 @@
 
                     console.log(data);
                 },
-                error: function (error) {
+                    error: function (error) {
+                        $(".modal-body").LoadingOverlay("hide");
+                        $("#ErrorMessage").text("Error Ajax");
+                        $("#ErrorMessage").show();
                     console.log(error);
                 },
                 beforeSend: function () {
                     // Opcional: acciones antes de enviar la petición
+                    $(".modal-body").LoadingOverlay("show", {
+                        imageResizeFactor: 2,
+                        text: "Cargando...",
+                        size: 14
+                    });
                 }
             });
 
