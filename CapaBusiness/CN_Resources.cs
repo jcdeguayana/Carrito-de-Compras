@@ -5,10 +5,21 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
+using System.Net.Mail;
+using System.Net;
+using System.IO;
+
 namespace CapaBusiness
 {
     public class CN_Resources
     {
+
+        // Genera una clave aleatoria de 6 caracteres
+        public static string GenerarClave()
+        {
+            string clave = Guid.NewGuid().ToString("N").Substring(0, 6);
+            return clave;
+        }
         public static string ConvertirSha256(string texto)
         {
             StringBuilder Sb = new StringBuilder();
@@ -23,6 +34,36 @@ namespace CapaBusiness
             }
 
             return Sb.ToString();
+        }
+
+        // Envía un correo electrónico
+        public static bool EnviarCorreo(string correo, string asunto, string mensaje)
+        {
+            bool resultado = false;
+
+            try
+            {
+                MailMessage mail = new MailMessage();
+                mail.To.Add(correo);
+                mail.From = new MailAddress("pruebascodigo123@gmail.com");
+                mail.Subject = asunto;
+                mail.Body = mensaje;
+
+                SmtpClient smtp = new SmtpClient();
+                smtp.Credentials = new NetworkCredential("pruebascodigo123@gmail.com", "tuContraseña");
+                smtp.Host = "smtp.gmail.com";
+                smtp.Port = 587;
+                smtp.EnableSsl = true;
+
+                smtp.Send(mail);
+                resultado = true;
+            }
+            catch (Exception)
+            {
+                resultado = false;
+            }
+
+            return resultado;
         }
     }
 }

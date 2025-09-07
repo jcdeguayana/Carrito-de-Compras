@@ -49,5 +49,18 @@ namespace PresentacionAdmin.Controllers
             return Json(new { resultado = resultado, mensaje = mensaje }, JsonRequestBehavior.AllowGet);
         }
 
+        [HttpPost]
+
+        public JsonResult Eliminar(int id)
+        {
+            string mensaje = string.Empty;
+
+            bool respuesta = false;
+
+            respuesta = new CN_User().Eliminar(id,out mensaje);
+
+            return Json(new { resultado = respuesta, mensaje = mensaje }, JsonRequestBehavior.AllowGet);
+        }
+
     }
 }
