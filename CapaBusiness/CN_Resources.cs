@@ -45,12 +45,12 @@ namespace CapaBusiness
             {
                 MailMessage mail = new MailMessage();
                 mail.To.Add(correo);
-                mail.From = new MailAddress("pruebascodigo123@gmail.com");
+                mail.From = new MailAddress("jcdeguayanamunozsalas@gmail.com");
                 mail.Subject = asunto;
                 mail.Body = mensaje;
 
                 SmtpClient smtp = new SmtpClient();
-                smtp.Credentials = new NetworkCredential("pruebascodigo123@gmail.com", "tuContraseña");
+                smtp.Credentials = new NetworkCredential("jcdeguayanamunozsalas@gmail.com", "zfbt psyn isek lywq");
                 smtp.Host = "smtp.gmail.com";
                 smtp.Port = 587;
                 smtp.EnableSsl = true;

@@ -37,10 +37,25 @@ namespace CapaBusiness
 
             if (string.IsNullOrEmpty(Mensaje))
             {
-                string clave = "12345"; // Valor por defecto o generado
-                obj.Clave = CN_Resources.ConvertirSha256(clave);
+                string clave = CN_Resources.GenerarClave(); // Valor por defecto o generado
 
-                return User.Registrar(obj, out Mensaje);
+                string asunto = "Creacion de Cuenta";
+                string mensaje_correo = "<h3>Su cuenta fue creada correctamente</h3><br><p>Su contraseña para acceder es: !clave!</p>";
+                mensaje_correo = mensaje_correo.Replace("!clave!", clave);
+
+                bool respuesta = CN_Resources.EnviarCorreo(obj.Correo, asunto, mensaje_correo);
+
+                if (respuesta)
+                {
+                    obj.Clave = CN_Resources.ConvertirSha256(clave);
+                    return User.Registrar(obj, out Mensaje);
+                }
+                else
+                {
+                    Mensaje = "No se puede enviar el correo";
+                    return 0;
+                }
+
             }
             else
             {
