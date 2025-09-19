@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F10773F-78BB-4218-9004-63A195A1DCA6}|PresentacionAdmin\\PresentacionAdmin.csproj|C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\presentacionadmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F10773F-78BB-4218-9004-63A195A1DCA6}|PresentacionAdmin\\PresentacionAdmin.csproj|solutionrelative:presentacionadmin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F10773F-78BB-4218-9004-63A195A1DCA6}|PresentacionAdmin\\PresentacionAdmin.csproj|c:\\users\\usuario\\desktop\\carrito-de-compras\\presentacionadmin\\views\\mantenedor\\marca.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F10773F-78BB-4218-9004-63A195A1DCA6}|PresentacionAdmin\\PresentacionAdmin.csproj|solutionrelative:presentacionadmin\\views\\mantenedor\\marca.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DAABA837-A124-4714-A713-54F92CC6F2F1}|CapaBusiness\\CapaBusiness.csproj|C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\capabusiness\\cn_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAABA837-A124-4714-A713-54F92CC6F2F1}|CapaBusiness\\CapaBusiness.csproj|solutionrelative:capabusiness\\cn_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F10773F-78BB-4218-9004-63A195A1DCA6}|PresentacionAdmin\\PresentacionAdmin.csproj|c:\\users\\usuario\\desktop\\carrito-de-compras\\presentacionadmin\\controllers\\mantenedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F10773F-78BB-4218-9004-63A195A1DCA6}|PresentacionAdmin\\PresentacionAdmin.csproj|solutionrelative:presentacionadmin\\controllers\\mantenedorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C581172B-CDB7-45B9-9AAB-53C6F57F325D}|CapaData\\CapaData.csproj|c:\\users\\usuario\\desktop\\carrito-de-compras\\capadata\\cd_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C581172B-CDB7-45B9-9AAB-53C6F57F325D}|CapaData\\CapaData.csproj|solutionrelative:capadata\\cd_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DAABA837-A124-4714-A713-54F92CC6F2F1}|CapaBusiness\\CapaBusiness.csproj|c:\\users\\usuario\\desktop\\carrito-de-compras\\capabusiness\\cn_resources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DAABA837-A124-4714-A713-54F92CC6F2F1}|CapaBusiness\\CapaBusiness.csproj|solutionrelative:capabusiness\\cn_resources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F10773F-78BB-4218-9004-63A195A1DCA6}|PresentacionAdmin\\PresentacionAdmin.csproj|C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\presentacionadmin\\views\\home\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F10773F-78BB-4218-9004-63A195A1DCA6}|PresentacionAdmin\\PresentacionAdmin.csproj|solutionrelative:presentacionadmin\\views\\home\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7F10773F-78BB-4218-9004-63A195A1DCA6}|PresentacionAdmin\\PresentacionAdmin.csproj|c:\\users\\usuario\\desktop\\carrito-de-compras\\presentacionadmin\\views\\mantenedor\\categoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F10773F-78BB-4218-9004-63A195A1DCA6}|PresentacionAdmin\\PresentacionAdmin.csproj|solutionrelative:presentacionadmin\\views\\mantenedor\\categoria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F10773F-78BB-4218-9004-63A195A1DCA6}|PresentacionAdmin\\PresentacionAdmin.csproj|C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\presentacionadmin\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F10773F-78BB-4218-9004-63A195A1DCA6}|PresentacionAdmin\\PresentacionAdmin.csproj|solutionrelative:presentacionadmin\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAABA837-A124-4714-A713-54F92CC6F2F1}|CapaBusiness\\CapaBusiness.csproj|c:\\users\\usuario\\desktop\\carrito-de-compras\\capabusiness\\cn_marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAABA837-A124-4714-A713-54F92CC6F2F1}|CapaBusiness\\CapaBusiness.csproj|solutionrelative:capabusiness\\cn_marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C581172B-CDB7-45B9-9AAB-53C6F57F325D}|CapaData\\CapaData.csproj|c:\\users\\usuario\\desktop\\carrito-de-compras\\capadata\\cd_marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C581172B-CDB7-45B9-9AAB-53C6F57F325D}|CapaData\\CapaData.csproj|solutionrelative:capadata\\cd_marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,20 +38,46 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CD_User.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\CapaData\\CD_User.cs",
-              "RelativeDocumentMoniker": "CapaData\\CD_User.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\CapaData\\CD_User.cs",
-              "RelativeToolTip": "CapaData\\CD_User.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "CD_Marca.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\CapaData\\CD_Marca.cs",
+              "RelativeDocumentMoniker": "CapaData\\CD_Marca.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\CapaData\\CD_Marca.cs",
+              "RelativeToolTip": "CapaData\\CD_Marca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-16T19:34:44.998Z",
+              "WhenOpened": "2025-09-19T22:41:46.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "CN_Marca.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\CapaBusiness\\CN_Marca.cs",
+              "RelativeDocumentMoniker": "CapaBusiness\\CN_Marca.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\CapaBusiness\\CN_Marca.cs",
+              "RelativeToolTip": "CapaBusiness\\CN_Marca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:51:30.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MantenedorController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\PresentacionAdmin\\Controllers\\MantenedorController.cs",
+              "RelativeDocumentMoniker": "PresentacionAdmin\\Controllers\\MantenedorController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\PresentacionAdmin\\Controllers\\MantenedorController.cs",
+              "RelativeToolTip": "PresentacionAdmin\\Controllers\\MantenedorController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAIwGkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T18:24:01.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "BundleConfig.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\PresentacionAdmin\\App_Start\\BundleConfig.cs",
               "RelativeDocumentMoniker": "PresentacionAdmin\\App_Start\\BundleConfig.cs",
@@ -59,58 +85,34 @@
               "RelativeToolTip": "PresentacionAdmin\\App_Start\\BundleConfig.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwCMAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T23:03:12.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CN_Resources.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\CapaBusiness\\CN_Resources.cs",
-              "RelativeDocumentMoniker": "CapaBusiness\\CN_Resources.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\CapaBusiness\\CN_Resources.cs",
-              "RelativeToolTip": "CapaBusiness\\CN_Resources.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDQAAABwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T00:46:33.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CN_User.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\CapaBusiness\\CN_User.cs",
-              "RelativeDocumentMoniker": "CapaBusiness\\CN_User.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\CapaBusiness\\CN_User.cs",
-              "RelativeToolTip": "CapaBusiness\\CN_User.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T00:38:56.071Z",
+              "WhenOpened": "2025-09-01T23:03:12.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\PresentacionAdmin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "PresentacionAdmin\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\PresentacionAdmin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "PresentacionAdmin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T14:50:56.098Z",
+              "Title": "Marca.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\PresentacionAdmin\\Views\\Mantenedor\\Marca.cshtml",
+              "RelativeDocumentMoniker": "PresentacionAdmin\\Views\\Mantenedor\\Marca.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\PresentacionAdmin\\Views\\Mantenedor\\Marca.cshtml",
+              "RelativeToolTip": "PresentacionAdmin\\Views\\Mantenedor\\Marca.cshtml",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAAANIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-19T23:13:54.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Users.cshtml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\PresentacionAdmin\\Views\\Home\\Users.cshtml",
-              "RelativeDocumentMoniker": "PresentacionAdmin\\Views\\Home\\Users.cshtml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\PresentacionAdmin\\Views\\Home\\Users.cshtml",
-              "RelativeToolTip": "PresentacionAdmin\\Views\\Home\\Users.cshtml",
-              "ViewState": "AgIAALEAAAAAAAAAAAAgwMsAAAA7AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Categoria.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\PresentacionAdmin\\Views\\Mantenedor\\Categoria.cshtml",
+              "RelativeDocumentMoniker": "PresentacionAdmin\\Views\\Mantenedor\\Categoria.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Carrito-de-Compras\\PresentacionAdmin\\Views\\Mantenedor\\Categoria.cshtml",
+              "RelativeToolTip": "PresentacionAdmin\\Views\\Mantenedor\\Categoria.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T23:27:54.771Z"
+              "WhenOpened": "2025-09-19T18:34:21.688Z",
+              "EditorCaption": ""
             }
           ]
         }

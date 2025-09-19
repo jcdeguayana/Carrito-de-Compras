@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CN_Category.cs" />
+    <Compile Include="CN_Marca.cs" />
     <Compile Include="CN_Resources.cs" />
     <Compile Include="CN_User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
