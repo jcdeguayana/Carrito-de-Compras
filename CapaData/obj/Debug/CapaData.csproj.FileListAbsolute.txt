@@ -16,3 +16,12 @@ C:\Users\Usuario\Desktop\Carrito-de-Compras\CapaData\obj\Debug\CapaData.csproj.C
 C:\Users\Usuario\Desktop\Carrito-de-Compras\CapaData\obj\Debug\CapaData.csproj.Up2Date
 C:\Users\Usuario\Desktop\Carrito-de-Compras\CapaData\obj\Debug\CapaData.dll
 C:\Users\Usuario\Desktop\Carrito-de-Compras\CapaData\obj\Debug\CapaData.pdb
+C:\Users\jcdeg\OneDrive\Desktop\Carrito-de-Compras\CapaData\bin\Debug\CapaData.dll
+C:\Users\jcdeg\OneDrive\Desktop\Carrito-de-Compras\CapaData\bin\Debug\CapaData.pdb
+C:\Users\jcdeg\OneDrive\Desktop\Carrito-de-Compras\CapaData\bin\Debug\CapaEntity.dll
+C:\Users\jcdeg\OneDrive\Desktop\Carrito-de-Compras\CapaData\bin\Debug\CapaEntity.pdb
+C:\Users\jcdeg\OneDrive\Desktop\Carrito-de-Compras\CapaData\obj\Debug\CapaData.csproj.AssemblyReference.cache
+C:\Users\jcdeg\OneDrive\Desktop\Carrito-de-Compras\CapaData\obj\Debug\CapaData.csproj.CoreCompileInputs.cache
+C:\Users\jcdeg\OneDrive\Desktop\Carrito-de-Compras\CapaData\obj\Debug\CapaData.csproj.Up2Date
+C:\Users\jcdeg\OneDrive\Desktop\Carrito-de-Compras\CapaData\obj\Debug\CapaData.dll
+C:\Users\jcdeg\OneDrive\Desktop\Carrito-de-Compras\CapaData\obj\Debug\CapaData.pdb
