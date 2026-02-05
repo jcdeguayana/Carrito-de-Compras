@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F10773F-78BB-4218-9004-63A195A1DCA6}|PresentacionAdmin\\PresentacionAdmin.csproj|C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\presentacionadmin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{7F10773F-78BB-4218-9004-63A195A1DCA6}|PresentacionAdmin\\PresentacionAdmin.csproj|solutionrelative:presentacionadmin\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{DAABA837-A124-4714-A713-54F92CC6F2F1}|CapaBusiness\\CapaBusiness.csproj|c:\\users\\jcdeg\\onedrive\\desktop\\carrito-de-compras\\capabusiness\\cn_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAABA837-A124-4714-A713-54F92CC6F2F1}|CapaBusiness\\CapaBusiness.csproj|solutionrelative:capabusiness\\cn_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C581172B-CDB7-45B9-9AAB-53C6F57F325D}|CapaData\\CapaData.csproj|c:\\users\\jcdeg\\onedrive\\desktop\\carrito-de-compras\\capadata\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DAABA837-A124-4714-A713-54F92CC6F2F1}|CapaBusiness\\CapaBusiness.csproj|c:\\users\\jcdeg\\onedrive\\desktop\\carrito-de-compras\\capabusiness\\cn_marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAABA837-A124-4714-A713-54F92CC6F2F1}|CapaBusiness\\CapaBusiness.csproj|solutionrelative:capabusiness\\cn_marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C581172B-CDB7-45B9-9AAB-53C6F57F325D}|CapaData\\CapaData.csproj|c:\\users\\jcdeg\\onedrive\\desktop\\carrito-de-compras\\capadata\\cd_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C581172B-CDB7-45B9-9AAB-53C6F57F325D}|CapaData\\CapaData.csproj|solutionrelative:capadata\\cd_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1CE0F45-2C73-452D-87C0-5CF56CAF41B3}|CapaEntity\\CapaEntity.csproj|c:\\users\\jcdeg\\onedrive\\desktop\\carrito-de-compras\\capaentity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CE0F45-2C73-452D-87C0-5CF56CAF41B3}|CapaEntity\\CapaEntity.csproj|solutionrelative:capaentity\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C581172B-CDB7-45B9-9AAB-53C6F57F325D}|CapaData\\CapaData.csproj|C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\capadata\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C581172B-CDB7-45B9-9AAB-53C6F57F325D}|CapaData\\CapaData.csproj|solutionrelative:capadata\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C581172B-CDB7-45B9-9AAB-53C6F57F325D}|CapaData\\CapaData.csproj|C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\capadata\\cd_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C581172B-CDB7-45B9-9AAB-53C6F57F325D}|CapaData\\CapaData.csproj|solutionrelative:capadata\\cd_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C581172B-CDB7-45B9-9AAB-53C6F57F325D}|CapaData\\CapaData.csproj|C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\capadata\\cd_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C581172B-CDB7-45B9-9AAB-53C6F57F325D}|CapaData\\CapaData.csproj|solutionrelative:capadata\\cd_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C581172B-CDB7-45B9-9AAB-53C6F57F325D}|CapaData\\CapaData.csproj|C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\capadata\\cd_marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C581172B-CDB7-45B9-9AAB-53C6F57F325D}|CapaData\\CapaData.csproj|solutionrelative:capadata\\cd_marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\PresentacionAdmin\\Web.config",
-              "RelativeDocumentMoniker": "PresentacionAdmin\\Web.config",
-              "ToolTip": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\PresentacionAdmin\\Web.config",
-              "RelativeToolTip": "PresentacionAdmin\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-12-31T17:28:53.53Z",
+              "DocumentIndex": 1,
+              "Title": "CN_Marca.cs",
+              "DocumentMoniker": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\CapaBusiness\\CN_Marca.cs",
+              "RelativeDocumentMoniker": "CapaBusiness\\CN_Marca.cs",
+              "ToolTip": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\CapaBusiness\\CN_Marca.cs",
+              "RelativeToolTip": "CapaBusiness\\CN_Marca.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAD4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T22:27:51.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\CapaEntity\\Producto.cs",
+              "RelativeDocumentMoniker": "CapaEntity\\Producto.cs",
+              "ToolTip": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\CapaEntity\\Producto.cs",
+              "RelativeToolTip": "CapaEntity\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T22:12:07.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\CapaData\\Conexion.cs",
               "RelativeDocumentMoniker": "CapaData\\Conexion.cs",
@@ -61,38 +74,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CD_User.cs",
-              "DocumentMoniker": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\CapaData\\CD_User.cs",
-              "RelativeDocumentMoniker": "CapaData\\CD_User.cs",
-              "ToolTip": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\CapaData\\CD_User.cs",
-              "RelativeToolTip": "CapaData\\CD_User.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAABAAAAAAAAAAA==",
+              "Title": "CD_Producto.cs",
+              "DocumentMoniker": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\CapaData\\CD_Producto.cs",
+              "RelativeDocumentMoniker": "CapaData\\CD_Producto.cs",
+              "ToolTip": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\CapaData\\CD_Producto.cs",
+              "RelativeToolTip": "CapaData\\CD_Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALEAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T16:43:08.761Z"
+              "WhenOpened": "2026-02-05T22:10:10.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CD_Marca.cs",
-              "DocumentMoniker": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\CapaData\\CD_Marca.cs",
-              "RelativeDocumentMoniker": "CapaData\\CD_Marca.cs",
-              "ToolTip": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\CapaData\\CD_Marca.cs",
-              "RelativeToolTip": "CapaData\\CD_Marca.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CN_Producto.cs",
+              "DocumentMoniker": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\CapaBusiness\\CN_Producto.cs",
+              "RelativeDocumentMoniker": "CapaBusiness\\CN_Producto.cs",
+              "ToolTip": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\CapaBusiness\\CN_Producto.cs",
+              "RelativeToolTip": "CapaBusiness\\CN_Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T16:43:07.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CD_Category.cs",
-              "DocumentMoniker": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\CapaData\\CD_Category.cs",
-              "RelativeDocumentMoniker": "CapaData\\CD_Category.cs",
-              "ToolTip": "C:\\Users\\jcdeg\\OneDrive\\Desktop\\Carrito-de-Compras\\CapaData\\CD_Category.cs",
-              "RelativeToolTip": "CapaData\\CD_Category.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwCAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T16:43:06.331Z"
+              "WhenOpened": "2026-02-05T22:27:19.425Z",
+              "EditorCaption": ""
             }
           ]
         }
